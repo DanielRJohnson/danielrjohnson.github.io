@@ -28,5 +28,10 @@ categories, automatic dating, etc. Many times I find tightly curated stacks
 like this to be too restrictive and not transferable, but Hugo has really 
 impressed me.
 
+Along with this, I am currently working on hosting this on GitHub Pages.
+One day I might write a full-blown thesis on my disenchantment with monetized
+hosting platforms, but for now it is suffice to say that I love the convenience
+of just pushing my code and having it automatically reflect on the hosted site.
+
 ## Proverbial Gunshot
 That being said, this is my site's very own **"Hello, World!"**
