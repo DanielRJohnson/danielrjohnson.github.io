@@ -1,0 +1,10 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Daniel Johnson</title>
+        <link>http://danielrjohnson.github.io/</link>
+        <description>Daniel Johnson</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>danielrjohnson00@gmail.com (Daniel Johnson)</managingEditor>
+            <webMaster>danielrjohnson00@gmail.com (Daniel Johnson)</webMaster>
+            <atom:link href="http://danielrjohnson.github.io/index.xml" rel="self" type="application/rss+xml" />
+        </channel>
+</rss>
