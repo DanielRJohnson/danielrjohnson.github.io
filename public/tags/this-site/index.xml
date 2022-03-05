@@ -1,12 +1,10 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>Daniel Johnson</title>
-        <link>http://danielrjohnson.github.io/</link>
-        <description>Daniel Johnson</description>
+        <title>This Site - Tag - Daniel Johnson</title>
+        <link>http://danielrjohnson.github.io/tags/this-site/</link>
+        <description>This Site - Tag - Daniel Johnson</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>danielrjohnson00@gmail.com (Daniel Johnson)</managingEditor>
-            <webMaster>danielrjohnson00@gmail.com (Daniel Johnson)</webMaster><lastBuildDate>Sat, 05 Mar 2022 00:43:32 -0600</lastBuildDate>
-            <atom:link href="http://danielrjohnson.github.io/index.xml" rel="self" type="application/rss+xml" />
-        <item>
+            <webMaster>danielrjohnson00@gmail.com (Daniel Johnson)</webMaster><lastBuildDate>Sat, 05 Mar 2022 00:43:32 -0600</lastBuildDate><atom:link href="http://danielrjohnson.github.io/tags/this-site/" rel="self" type="application/rss+xml" /><item>
     <title>Hello, World!</title>
     <link>http://danielrjohnson.github.io/posts/mysite/</link>
     <pubDate>Sat, 05 Mar 2022 00:43:32 -0600</pubDate>

@@ -1,7 +1,7 @@
 ---
 title: "Projects"
 date: 2022-03-04T22:33:41-06:00
-draft: true
+draft: false
 ---
 
 ## TODO
