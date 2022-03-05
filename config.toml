@@ -11,6 +11,8 @@ theme = "LoveIt"
 [params]
   # LoveIt theme version
   version = "0.2.X"
+  defaultTheme = "auto"
+
   [params.home]
     # Home page profile
     [params.home.profile]
