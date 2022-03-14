@@ -58,7 +58,7 @@ This is a diagram that shows the percent accuracy that we could correctly predic
 ## DJ-Learn 🧠
 
 ### Description and Motivation
-[DJ-Learn](https://github.com/DanielRJohnson/DJ-Learn) is my own from-scratch machine learning library. Machine learning is one of my biggest passions, and I sometimes dislike how abstracted is is from the math. Most of the times this is a blessing, but when you try to actually learn ML algorithms it is a good idea to implement them from scratch (up to a certain difficulty). That being said, this is my place to implement ML models from scratch and play around with the algorithms that I am learning.
+[DJ-Learn](https://github.com/DanielRJohnson/DJ-Learn) is my own from-scratch machine learning library. Machine learning is one of my biggest passions, and I sometimes dislike how abstracted it is from the math. Most of the times this is a blessing, but when you try to actually learn ML algorithms it is a good idea to implement them from scratch (up to a certain difficulty). That being said, this is my place to implement ML models from scratch and play around with the algorithms that I am learning.
 
 ### What is in the repo?
 At the time of writing this (3/11/22), I currently have decision trees, linear and logistic regression, naive bayes, K nearest neighbors, and a simple feed-forward neural network implemented. If I choose to dig into more algorithms in the future, more will show up in the repo.
