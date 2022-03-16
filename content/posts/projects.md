@@ -15,10 +15,10 @@ draft: false
 [Glimmer](https://github.com/DanielRJohnson/Glimmer) is my own programming language. Cool, right? I decided to do this because I really enjoyed my programming language semantics course and wanted to dive deeper. To do this, I read the book [Writing An Interpreter In Go by Thorsten Ball](https://interpreterbook.com/), followed along with what they did, and have been adding much on top of it.
 
 ### What is in the repo?
-Specifically, this repo implements a lexer, parser, and a tree-walking evaluator for my language with a complete file-runner, REPL (Read-Eval-Print-Loop), RPPL(Read-Parse-Print-Loop), and RLPL (Read-Lex-Print-Loop).
+Specifically, this repo implements a lexer, parser, typechecker, and a tree-walking evaluator for my language with a complete file-runner, REPL (Read-Eval-Print-Loop), RPPL(Read-Parse-Print-Loop), and RLPL (Read-Lex-Print-Loop).
 
 ### What can it do?
-Glimmer follows C-like syntax while getting inspiration from Go and Haskell. The goal is to have a language with clean syntax that is capable in semantics and performance. 
+The goal of Glimmer is to have a language with clean syntax that is capable in semantics and performance. 
 
 Glimmer supports:
  - Common arithmetic/logical operations
@@ -26,6 +26,7 @@ Glimmer supports:
  - Variable binding
  - First-class functions
  - Static scoping
+ - Static typing
  - Loops
  - Recursion
  - etc.
@@ -33,11 +34,11 @@ Glimmer supports:
 ### Example
 
 ```
->> inc = fn(x) { x + 1 }
->> applyTwice = fn(f, x) { f(f(x)) }
+>> inc = fn(x: int) -> int { x + 1 }
+>> applyTwice = fn(f: fn(int) -> int, x: int) -> int { f(f(x)) }
 >> applyTwice(inc, 1)
 3
->> fact = fn(n) { if n == 0 { 1 } else { fact(n - 1) * n } }
+>> fact = fn(n: int) -> int { if n == 0 { 1 } else { fact(n - 1) * n } }
 >> fact(5)
 120
 ```
