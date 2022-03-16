@@ -35,8 +35,8 @@ theme = "LoveIt"
 
   # Social config about the author
   [params.social]
-    GitHub = "https://github.com/DanielRJohnson"
-    Linkedin = "https://www.linkedin.com/in/danielrjohnson00/"
+    GitHub = "DanielRJohnson"
+    Linkedin = "danielrjohnson00"
     Email = "danielrjohnson00@gmail.com"
 
 

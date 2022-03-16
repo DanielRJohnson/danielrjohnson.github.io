@@ -31,9 +31,18 @@ Glimmer supports:
  - etc.
 
 ### Example
-![Glimmer REPL Example](/recursion.png)
 
-Here I define a function `f` that takes one parameter `n` and returns 1 if `n == 0` else it returns `f(n-1) * n`. In other words, `f` is the factorial function. Lastly, I print `f(5)` which prints 120. Obviously the language can do much more than just these math operations, but this is a good taste of syntax.
+```
+>> inc = fn(x) { x + 1 }
+>> applyTwice = fn(f, x) { f(f(x)) }
+>> applyTwice(inc, 1)
+3
+>> fact = fn(n) { if n == 0 { 1 } else { fact(n - 1) * n } }
+>> fact(5)
+120
+```
+
+This example shows how first class functions work in `Glimmer`. For many more details and examples, check out the repo.
 
 ---
 ## MOBIUS 🐋
