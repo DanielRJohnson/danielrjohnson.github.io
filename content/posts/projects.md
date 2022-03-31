@@ -38,7 +38,7 @@ Glimmer supports:
 >> applyTwice = fn(f: fn(int) -> int, x: int) -> int { f(f(x)) }
 >> applyTwice(inc, 1)
 3
->> fact = fn(n: int) -> int { if n == 0 { 1 } else { fact(n - 1) * n } }
+>> fact = fn(n: int) -> int { ife n == 0 { 1 } else { fact(n - 1) * n } }
 >> fact(5)
 120
 ```
