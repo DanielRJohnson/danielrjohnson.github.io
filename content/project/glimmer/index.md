@@ -1,22 +1,23 @@
 ---
-title: Example Project
-summary: An example of using the in-built project page.
+title: Glimmer
+summary: Glimmer is a fully statically-typed scripting language which aims to have clean and simple syntax while drawing some inspiration from each of my favorite languages and topics. This implementation of Glimmer comes with a complete Read-Eval-Print-Loop (REPL), Read-Parse-Print-Loop (RPPL), and Read-Lex-Print-Loop (RLPL). Of course, you can also execute source files directly.
+
 tags:
-  - Deep Learning
-date: '2016-04-27T00:00:00Z'
+  - Programming Languages
+date: '2019-04-27T00:00:00Z'
 
 # Optional external URL for project (replaces project detail page).
-external_link: ''
+external_link: 'https://github.com/DanielRJohnson/Glimmer'
 
 image:
-  caption: Photo by rawpixel on Unsplash
+  caption: Examples of Glimmer code
   focal_point: Smart
 
 links:
-  - icon: twitter
+  - icon: github
     icon_pack: fab
-    name: Follow
-    url: https://twitter.com/georgecushen
+    name: GitHub
+    url: https://github.com/DanielRJohnson/Glimmer
 url_code: ''
 url_pdf: ''
 url_slides: ''
@@ -27,7 +28,7 @@ url_video: ''
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
 #   Otherwise, set `slides = ""`.
-slides: example
+<!-- slides: example -->
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
