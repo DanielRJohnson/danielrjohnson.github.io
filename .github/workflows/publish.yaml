@@ -2,6 +2,7 @@ name: Deploy website to GitHub Pages
 
 env:
   WC_HUGO_VERSION: '0.119.0'
+  CNAME: www.danielrjohnson.dev
 
 on:
   # Trigger the workflow every time you push to the `main` branch
