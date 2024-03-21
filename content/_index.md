@@ -286,5 +286,5 @@ sections:
     content:
       title: Talks
       username: admin
-      text: "{{< youtube ShbzmgurT38 >}}"
+      text: "{{< youtube ShbzmgurT38 >}} {{< youtube Z-dSPCYDUzw >}}"
 ---
