@@ -17,12 +17,12 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Graduate Research Assistant
+role: Post-Master's Researcher
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: University of Kansas
-    url: https://www.ku.edu/
+  - name: Los Alamos National Laboratory
+    url: https://www.lanl.gov/
 
 # Short bio (displayed in user profile at end of posts)
 bio: ""
@@ -38,7 +38,7 @@ education:
   courses:
     - course: M.S. in Computer Science
       institution: "University of Kansas, GPA: 4.0/4.0"
-      year: Expected May 2024
+      year: 2024
     - course: B.S. in Computer Science
       institution: "University of Kansas, GPA: 3.74/4.0"
       year: 2022
@@ -49,36 +49,36 @@ skills:
   - name: Technical
     items:
       - name: Python
-        description: ''
+        description: ""
         percent: 80
         icon: python
         icon_pack: fab
       - name: Data Science
-        description: ''
+        description: ""
         percent: 100
         icon: chart-line
         icon_pack: fas
       - name: SQL
-        description: ''
+        description: ""
         percent: 40
         icon: database
         icon_pack: fas
   - name: Hobbies
-    color: '#eeac02'
-    color_border: '#f0bf23'
+    color: "#eeac02"
+    color_border: "#f0bf23"
     items:
       - name: Hiking
-        description: ''
+        description: ""
         percent: 60
         icon: person-hiking
         icon_pack: fas
       - name: Cats
-        description: ''
+        description: ""
         percent: 100
         icon: cat
         icon_pack: fas
       - name: Photography
-        description: ''
+        description: ""
         percent: 80
         icon: camera-retro
         icon_pack: fas
@@ -108,6 +108,5 @@ social:
 highlight_name: true
 ---
 
-I'm a graduate student studying computer science at the University of Kansas. My current research focuses on utilizing machine learning for dynamic selective protection of iterative solvers under the threat of errors. On the side, I love fighting games, ping pong, and random tech stuff. Have a look around!
+I'm a computer scientist with experience in software engineering, data science, academic research, and much more. Where there are interesting problems to solve or pretty graphs to be made, you'll find me. On the side, I love fighting games, ping pong, and random tech stuff. Have a look around!
 {style="text-align: justify;"}
-
